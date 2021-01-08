@@ -1,11 +1,13 @@
 import './index.css';
+import foto from './img/photo_nv.jpg';
+import cv from './img/NazarukV-CV.pdf';
 
 function App() {
   return (
     // <!-- main container -->
     <div className="wrapper">
     <aside className="sidebar">
-        <img className="my-photo" src="./img/foto_cv_nazaruk_2.jpeg" alt="Foto for CV"/>
+        <img className="my-photo" src={foto} alt="Foto for CV"/>
 
         {/* <!-- Contacts conteiner --> */}
         <div className="Contacts-conteiner"> 
@@ -17,13 +19,13 @@ function App() {
                 <span className="Contacts-link-type"></span>  <a className="Contacts-link" href="mailto:nazaruk.v92@gmail.com">nazaruk.v92@gmail.com</a>
             </div>
             <div>
-                <span className="Contacts-link-type"></span>  <a className="Contacts-link" target="_blank" rel="noreferrer" href="https://github.com/VINK92">My GitHub</a>
+                <span className="Contacts-link-type"></span>  <a className="Contacts-link" target="_blank" rel="noreferrer" href="https://github.com/VINK92">GitHub</a>
             </div>
             <div>
-                <span className="Contacts-link-type"></span>  <a className="Contacts-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nazaruk-v">My LinkedIn</a>
+                <span className="Contacts-link-type"></span>  <a className="Contacts-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nazaruk-v">LinkedIn</a>
             </div>
             <div>
-                <span className="Contacts-link-type"></span>  <a className="Contacts-link" href="./NazarukV-CV.pdf" download>Download CV</a>
+                <span className="Contacts-link-type"></span>  <a className="Contacts-link" href={cv} download>Download CV</a>
             </div>
         </div>
 
@@ -59,6 +61,14 @@ function App() {
             <li className="Soft-Skills-item"> <span className="Soft-Skills-text">Teamwork</span> </li>
         </ul>
         </div>
+        <div className="Languages-container">
+          <h3 className="Languages-title">Languages</h3>
+        <ul className="Languages-list">
+          <li><span className="Languages-item-text"> EN - pre-intermidiate</span></li>
+          <li><span className="Languages-item-text"> RU - native</span></li>
+          <li><span className="Languages-item-text"> UK - native</span></li>
+        </ul>
+        </div>
     </aside>
     {/* <!-- about me container --> */}
     <div className="about-me-container">
@@ -77,7 +87,7 @@ function App() {
         {/* <!-- project container --> */}
         <div className="project-container">
             <h3 className="about-me-title">Projects</h3>
-            <ol className="number">
+            <ul className="number">
                 <li className="project-item">
                     <a className="projects-link" target="_blank" rel="noreferrer" href="https://slimmom-fixers.netlify.app/"> SLIM MOM</a>
                     {/* <!-- <span className="dots">.............................</span> --> */}
@@ -95,14 +105,15 @@ function App() {
                 </li>
     
     
-            </ol>
+            </ul>
         </div>
         {/* <!-- Work Experience--> */}
         <div>
             <h3 className="about-me-title">Work Experience</h3>
             <div>
                 {/* <!-- company 1 --> */}
-                <h4 className="profassion-title"> CFO <span className="profassion-company">Mandarinki Express</span> </h4>
+                <h4 className="profassion-title"> CFO</h4>
+                <span className="profassion-company">Mandarinki Express</span>
                 <span className="profassion-time">January 2017 - September 2020<span className="profassion-divider">|</span> Ukraine </span>
                 <ul className="profassion-duties">
                     <li className="profassion-duties-item ">Organization of accounting from the beginning</li>
@@ -114,7 +125,8 @@ function App() {
     
             <div>
                 {/* <!-- company 2 --> */}
-                <h4 className="profassion-title"> AUDITOR <span className="profassion-company"> Wörwag Pharma LLC</span> </h4>
+                <h4 className="profassion-title"> AUDITOR</h4>
+                <span className="profassion-company"> Wörwag Pharma LLC</span>
                 <span className="profassion-time">2014 – present  <span className="profassion-divider">|</span> Ukraine </span>
                 <ul className="profassion-duties">
                     <li className="profassion-duties-item ">Checking external reports and all documentations</li>
