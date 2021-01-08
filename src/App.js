@@ -13,7 +13,7 @@ function App() {
         <div className="Contacts-conteiner"> 
             <h3 className="Contacts-title"> Contacts</h3>
             <div>
-                <span className="Contacts-link-type"></span>  <a className="Contacts-link" href="+38 093 949 28 09">+38 093 949 28 09</a>
+                <span className="Contacts-link-type"></span>  <a className="Contacts-link" href="tel:+38 093 949 28 09">+38 093 949 28 09</a>
             </div>
             <div>
                 <span className="Contacts-link-type"></span>  <a className="Contacts-link" href="mailto:nazaruk.v92@gmail.com">nazaruk.v92@gmail.com</a>
