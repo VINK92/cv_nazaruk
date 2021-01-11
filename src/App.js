@@ -64,7 +64,7 @@ function App() {
         <div className="Languages-container">
           <h3 className="Languages-title">Languages</h3>
         <ul className="Languages-list">
-          <li><span className="Languages-item-text"> EN - pre-intermidiate</span></li>
+          <li><span className="Languages-item-text"> EN - intermidiate</span></li>
           <li><span className="Languages-item-text"> RU - native</span></li>
           <li><span className="Languages-item-text"> UK - native</span></li>
         </ul>
