@@ -1,6 +1,6 @@
 import './index.css';
 import foto from './img/photo_nv.jpg';
-import cv from './img/NazarukV-CV.pdf';
+import cv from './img/Viktoriia Nazaruk.pdf';
 
 function App() {
   return (
