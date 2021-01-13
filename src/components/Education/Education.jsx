@@ -13,7 +13,7 @@ const Education = ({data: {education}}) => (
             <h5 className="education-major">{major}</h5>
             <span className="education-time">
               {time}
-              <span className="profassion-divider">|</span> Ukraine
+              <span className="profassion-divider"> | </span> Ukraine
             </span>
           </li>
         )

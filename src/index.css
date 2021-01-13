@@ -231,7 +231,7 @@ code {
   line-height: 2;
 }
 .profassion-divider {
-  color: var(--primary-text-color);
+  color: var(--time-color);
 }
 .profassion-duties {
   list-style: none;

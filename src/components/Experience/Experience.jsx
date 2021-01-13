@@ -12,7 +12,7 @@ const Experience = ({ data: { experience } }) => (
           <span className="profassion-company">{company.company}</span>
           <span className="profassion-time">
             {company.time}
-            <span className="profassion-divider">|</span> Ukraine
+            <span className="profassion-divider"> | </span> Ukraine
           </span>
           <ul className="profassion-duties">
             {company.duties.map((dutie) => {
