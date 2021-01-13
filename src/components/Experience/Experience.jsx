@@ -7,7 +7,7 @@ const Experience = ({ data: { experience } }) => (
     <h3 className="about-me-title">Work Experience</h3>
     {experience.map((company) => {
       return (
-        <div key={company.company}>
+        <div className="companyContainer" key={company.company}>
           <h4 className="profassion-title">{company.profassion}</h4>
           <span className="profassion-company">{company.company}</span>
           <span className="profassion-time">
