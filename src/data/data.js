@@ -1,5 +1,5 @@
 import foto from "../img/photo_nv.jpg"
-import cv from "../img/Viktoriia Nazaruk.pdf"
+import cv from "../img/ViktoriiaNazarukCV.pdf"
 
 export default {
   name: "Viktoriia",
