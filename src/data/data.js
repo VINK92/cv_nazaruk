@@ -26,8 +26,9 @@ export default {
     "Bootstrap",
     "REST API",
     "DOM-model",
+    "Scrum",
   ],
-  softSkills: ["Fast learning", "Hardwork", "Problem solver", "Responsible", "Scrum", "Teamwork"],
+  softSkills: ["Fast learning", "Hardwork", "Problem solver", "Responsible", "Teamwork"],
   languages: ["EN - intermidiate", "RU - native", "UK - native"],
   profassion: "Full Stack Developer",
   description:
