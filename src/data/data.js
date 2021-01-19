@@ -37,19 +37,19 @@ export default {
     {
       name: "SLIM MOM",
       link: "https://slimmom-fixers.netlify.app/",
-      technologies: "React.js, Redux ",
+      technologies: "[ React.js, Redux ]",
       about: "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake."
     },
     {
       name: "FILMOTEKA",
       link: "https://gal4enock.github.io/Project-JS-filmoteka/",
-      technologies: "JavaScript",
+      technologies: "[ JavaScript, Webpack ]",
       about: "Application for searching movies, making a personal list to watch."
     },
     {
       name: "ICEC REAM",
       link: "https://vink92.github.io/parcel-project-template/",
-      technologies: "HTML5, CSS3",
+      technologies: "[ HTML5, CSS3 ]",
       about: "Business card site for home made ice cream."
     },
   ],

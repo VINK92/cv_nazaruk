@@ -15,9 +15,9 @@ const Projects = ({ data: { projects } }) => {
                 {name}
               </a>
               <span>
-                <b> [ </b>
+                {/* <b> [ </b> */}
                 <span className="tech-name">{technologies}</span>
-                <b> ] </b>
+                {/* <b> ] </b> */}
                 <span className="project-about">{about}</span>
               </span>
             </li>
