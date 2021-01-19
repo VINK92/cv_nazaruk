@@ -27,9 +27,9 @@ export default {
     "REST API",
     "DOM-model",
     "Scrum",
-  ],
+  ], 
   softSkills: ["Fast learning", "Hardwork", "Problem solver", "Responsible", "Teamwork"],
-  languages: ["EN - intermidiate", "RU - native", "UK - native"],
+  languages: ["English - intermediate", "Russian - native", "Ukrainian - native"],
   profassion: "Full Stack Developer",
   description:
     "I quickly learn new technologies and improve. On the way to being work on not only in the development of sites but also applications.",
@@ -38,16 +38,19 @@ export default {
       name: "SLIM MOM",
       link: "https://slimmom-fixers.netlify.app/",
       technologies: "React.js, Redux ",
+      about: "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake."
     },
     {
       name: "FILMOTEKA",
       link: "https://gal4enock.github.io/Project-JS-filmoteka/",
       technologies: "JavaScript",
+      about: "Application for searching movies, making a personal list to watch."
     },
     {
       name: "ICEC REAM",
       link: "https://vink92.github.io/parcel-project-template/",
       technologies: "HTML5, CSS3",
+      about: "Business card site for home made ice cream."
     },
   ],
   experience: [

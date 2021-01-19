@@ -8,7 +8,7 @@ const Projects = ({ data: { projects } }) => {
       <h3 className="about-me-title">Projects</h3>
       <ul className="number">
         {projects.map((project) => {
-          const { name, link, technologies } = project
+          const { name, link, technologies, about } = project
           return (
             <li className="project-item" key={name}>
               <a className="projects-link" target="_blank" rel="noreferrer" href={link}>
@@ -18,6 +18,7 @@ const Projects = ({ data: { projects } }) => {
                 <b> [ </b>
                 <span className="tech-name">{technologies}</span>
                 <b> ] </b>
+                <span className="project-about">{about}</span>
               </span>
             </li>
           )

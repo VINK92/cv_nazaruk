@@ -175,18 +175,23 @@ code {
 }
 .projects-link {
   color: var(--accent-color);
-  font-family: Montserrat;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.71;
 }
 .tech-name {
   color: var(--primary-text-color);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.71;
 }
 
+.project-about {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
 .number {
   color: var(--primary-text-color);
   list-style: none;
@@ -195,6 +200,7 @@ code {
 .project-item {
   font-weight: 700;
   margin-left: 17;
+  padding-bottom: 5px;
 }
 .project-container {
   margin-bottom: 55px;
