@@ -1,5 +1,5 @@
-import foto from "../img/photo_nv.jpg"
-import cv from "../img/ViktoriiaNazarukCV.pdf"
+import foto from "../img/photo_nv.jpg";
+import cv from "../img/ViktoriiaNazarukCV.pdf";
 
 export default {
   name: "Viktoriia",
@@ -13,63 +13,103 @@ export default {
     download: cv,
   },
   techSkills: [
-    "HTML5",
-    "CSS3",
-    "GIT/GitHub",
-    "WebPack",
     "JavaScript",
     "React.js",
+    "Typescript",
+    "Next.js",
     "React Native",
     "Node.js",
     "Redux",
+    "Redux saga",
+    "Redux RTK query",
     "Axios",
-    "Bootstrap",
-    "REST API",
-    "DOM-model",
+    "Firebase",
+    "MUI",
+    "Tailwind",
+  ],
+  softSkills: [
+    "Fast learning",
+    "Hardwork",
+    "Problem solver",
+    "Responsible",
+    "Teamwork",
     "Scrum",
-  ], 
-  softSkills: ["Fast learning", "Hardwork", "Problem solver", "Responsible", "Teamwork"],
-  languages: ["English - intermediate", "Russian - native", "Ukrainian - native"],
+  ],
+  languages: [
+    "English - intermediate",
+    "Ukrainian - native",
+  ],
   profassion: "Full Stack Developer",
   description:
     "I quickly learn new technologies and improve. On the way to being work on not only in the development of sites but also applications.",
   projects: [
     {
+      name: "FORTRESS DASHBOARD",
+      link: "https://dashboard.fortressapi.com",
+      technologies: "[ React.js, Redux RTK, MUI ]",
+      about:
+        "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake.",
+    },
+    {
+      name: "FORTRESS APP",
+      link: "https://my.fortress.app/",
+      technologies: "[ React.js, Redux Saga, MUI]",
+      about:
+        "With the Fortress App, send and collect coins and NFTs with a few taps.",
+    },
+    {
+      name: "BANQ",
+      link: "https://banq.com/",
+      technologies: "[ React Native, React Navigation, Redux Saga]",
+      about:
+        "The software solution that bridges the gap between crypto and traditional fiat.",
+    },
+    {
+      name: "SILATHA",
+      link: "https://apps.apple.com/ua/app/silatha-womens-wellbeing/id1116656695?l=uk",
+      technologies: "[ React Native, Typescript, Redux, Firebase ]",
+      about:
+        "Silatha has developed a program to support companies in designing a healthy environment for women, by addressing their unique mental needs.",
+    },
+    {
+      name: "SKILL YOGA",
+      link: "https://apps.apple.com/us/app/skill-yoga-yoga-workouts/id1462051533?l=de&ls=1",
+      technologies: "[ React Native, Redux, Firebase ]",
+      about: "Your Digital Yoga Coach. Functional Yoga for Athletic People.",
+    },
+    {
+      name: "REFORESTUM",
+      link: "https://reforestum.com",
+      technologies: "[ Next.js, Redux, prismic.io ]",
+      about: "Reverse climate change with forestry projects you trust",
+    },
+    {
+      name: "NUMARQE",
+      link: "https://www.numarqe.com/",
+      technologies: "[ React.js, Redux, Tailwind ]",
+      about:
+        "One platform to manage all your corporate card spend, powered by our AI driven credit engine.",
+    },
+    {
       name: "SLIM MOM",
       link: "https://slimmom-fixers.netlify.app/",
       technologies: "[ React.js, Redux ]",
-      about: "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake."
-    },
-    {
-      name: "FILMOTEKA",
-      link: "https://gal4enock.github.io/Project-JS-filmoteka/",
-      technologies: "[ JavaScript, Webpack ]",
-      about: "Application for searching movies, making a personal list to watch."
-    },
-    {
-      name: "ICEC REAM",
-      link: "https://vink92.github.io/parcel-project-template/",
-      technologies: "[ HTML5, CSS3 ]",
-      about: "Business card site for home made ice cream."
+      about:
+        "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake.",
     },
   ],
   experience: [
     {
-      profassion: "CFO",
-      company: "Mandarinki Express",
-      time: "January 2017 - September 2020",
-      duties: [
-        "Organization of accounting from the beginning",
-        "Work on improving accounting systems, writing technical specifications",
-        "Control over the compilation and implementation of financial indicators",
-        "Internal and external reporting",
-      ],
+      profassion: "React/React Native Developer",
+      company: "Voypost",
+      time: "February 2021 - October 2021",
+      duties: [],
     },
     {
-      profassion: "AUDITOR",
-      company: "Wörwag Pharma LLC",
-      time: "2017 – present",
-      duties: ["Checking external reports and all documentations", "Internal reporting about checking"],
+      profassion: "Software Engineer",
+      company: "SoftServe",
+      time: "October 2021 - present",
+      duties: [],
     },
   ],
   education: [
@@ -84,4 +124,4 @@ export default {
       time: "Septermber 2009 - June 2015",
     },
   ],
-}
+};
