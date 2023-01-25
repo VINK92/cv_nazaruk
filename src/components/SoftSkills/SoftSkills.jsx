@@ -14,11 +14,11 @@ const SoftSkills = (props) => {
               {" "}
               <span className="Soft-Skills-text">{skill}</span>{" "}
             </li>
-          )
+          );
         })}
       </ul>
     </div>
-  )
+  );
 };
 
 SoftSkills.propTypes = {
@@ -26,12 +26,3 @@ SoftSkills.propTypes = {
 };
 
 export default SoftSkills;
-
-{
-  /* <li className="Soft-Skills-item"> <span className="Soft-Skills-text">Fast learning</span> </li>
-<li className="Soft-Skills-item"> <span className="Soft-Skills-text">Hardwork</span> </li>
-<li className="Soft-Skills-item"> <span className="Soft-Skills-text">Problem solver</span> </li>
-<li className="Soft-Skills-item"> <span className="Soft-Skills-text">Responsible</span> </li>
-<li className="Soft-Skills-item"> <span className="Soft-Skills-text">Scrum</span> </li>
-<li className="Soft-Skills-item"> <span className="Soft-Skills-text">Teamwork</span> </li> */
-}
