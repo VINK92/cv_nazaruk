@@ -35,10 +35,7 @@ export default {
     "Teamwork",
     "Scrum",
   ],
-  languages: [
-    "English - intermediate",
-    "Ukrainian - native",
-  ],
+  languages: ["English - intermediate", "Ukrainian - native"],
   profassion: "Full Stack Developer",
   description:
     "I quickly learn new technologies and improve. On the way to being work on not only in the development of sites but also applications.",
@@ -100,15 +97,15 @@ export default {
   ],
   experience: [
     {
-      profassion: "React/React Native Developer",
-      company: "Voypost",
-      time: "February 2021 - October 2021",
-      duties: [],
-    },
-    {
       profassion: "Software Engineer",
       company: "SoftServe",
       time: "October 2021 - present",
+      duties: [],
+    },
+    {
+      profassion: "React/React Native Developer",
+      company: "Voypost",
+      time: "February 2021 - October 2021",
       duties: [],
     },
   ],
