@@ -1,5 +1,8 @@
 [build]
   command = "react-scripts build"
+  commandOrigin = "ui"
+  publish = "build"
+  publishOrigin = "config"
 
 [[redirects]]
   from = "/*"
