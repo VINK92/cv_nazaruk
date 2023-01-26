@@ -4,8 +4,6 @@
   publish = "/opt/build/repo/build"
   publishOrigin = "config"
 
-functionsDirectory = "/opt/build/repo/netlify/functions"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
